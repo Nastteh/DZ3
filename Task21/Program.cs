@@ -23,7 +23,6 @@ double Decision(int x1, int x2, int y1, int y2, int z1, int z2)
                      Math.Pow((y2 - y1), 2) + 
                      Math.Pow((z2 - z1), 2));
 }
-
 double segmentLength = Math.Round(Decision(x1, x2, y1, y2, z1, z2), 2);
 
 Console.WriteLine($"Длина отрезка  {segmentLength}");
